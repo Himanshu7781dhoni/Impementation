@@ -24,4 +24,5 @@ public static void main(String args[]){
     int destination = sc.nextInt();
     Graph.addEdge(source, destination);
   }
+  sc.close();
 }
