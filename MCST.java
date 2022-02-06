@@ -14,7 +14,7 @@ class Himanshu{
     for(int i = 0; i < N; i++){
       distance[i] = Integer.MAX_VALUE;
     }
-    distance [src] = 0;
+    distance [source] = 0;
     PriorityQueue<Node> pq = new PriorityQueue<>((v1, v2) -> v1.getWT() - v2.getWT()):
     pq.add(new Node(source, 0);
     while(pq.size() > 0){
