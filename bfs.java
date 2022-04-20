@@ -10,7 +10,7 @@ public int bfs(int source, int destination){
     int cur = q.poll();
     if(cur == destination) break;
     for(int neighbour : adj[cur]){
-      if(!vis[neighbour]){
+      if(vis[neighbour] == false){
         vis[neighbour] = true;
         q.add(neighbour);
         parent[neighbour] = cur;
