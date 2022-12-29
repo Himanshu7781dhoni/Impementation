@@ -28,6 +28,8 @@ class QuickSort{
       
       return i + 1;
   }
+  
+  //Second implementation of partition method
   int partition(int arr[], int low, int high){
     //here we take the first element as pivot
     int pivot = arr[low];
